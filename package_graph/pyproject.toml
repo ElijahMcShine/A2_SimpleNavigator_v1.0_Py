@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "s21_graph"
+version = "0.0.1"
+description = "s21_graph"
+authors = [ "name = stilwool-suannefu email = elijah@mcshine.ru" ]
+
+[tool.poetry.dependencies]
+graphviz = "^0.21"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "s21_graph_algorithms"
+version = "0.1.0"
+description = "s21_graph_algorithms"
+authors = [ "name = stilwool-suannefu email = elijah@mcshine.ru" ]
+
+[tool.poetry.dependencies]
+cppyy = "3.5.0"
+s21_graph = "0.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
